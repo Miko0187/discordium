@@ -1,0 +1,11 @@
+[package]
+name = "discordium"
+version = "0.1.0"
+edition = "2021"
+description = "An rust-based Discord api wrapper for Python."
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "discordium"
+crate-type = ["cdylib"]

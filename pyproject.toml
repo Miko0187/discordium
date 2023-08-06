@@ -1,0 +1,19 @@
+[project]
+name = "discordium"
+description = "An rust-based Discord api wrapper for Python."
+version = "0.0.1"
+authors = [
+    {name = "Miko0187"}
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["maturin"]
+build-backend = "maturin"
+
+[tool.maturin]
+bindings = "cffi"
+manylinux_x86_64 = true
+manylinux_i686 = true
+manylinux_x86 = true
